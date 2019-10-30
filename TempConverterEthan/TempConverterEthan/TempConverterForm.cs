@@ -17,7 +17,25 @@ namespace TempConverterEthan
             InitializeComponent();
         }
 
+        // Function: CalculateToFahrenheit
+        // Input: double celcius
+        // Output: void
+        // This function takes the users celcius (input) and converts it to fahrenheit (9/5 int32)
+        public void CalculateFahrenheit(double celcius)
+        {
+            // declare local variables
+            double celcius;
+
+            // calculate the fahrenheit with the given celcius
+            celcius = (celcius * 1.8) + 32;
+        }
+
         private void BtnConvertToFah_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtInput_TextChanged(object sender, EventArgs e)
         {
 
         }

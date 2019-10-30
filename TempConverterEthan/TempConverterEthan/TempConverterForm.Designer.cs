@@ -49,6 +49,7 @@
             this.txtInput.Name = "txtInput";
             this.txtInput.Size = new System.Drawing.Size(100, 20);
             this.txtInput.TabIndex = 1;
+            this.txtInput.TextChanged += new System.EventHandler(this.TxtInput_TextChanged);
             // 
             // btnConvertToFah
             // 
