@@ -1,0 +1,5 @@
+N:\Classes\Sem1-Fall2019\ICS3U Programming\LEthan (s256202)\Unit 4 (Procedures & Functions)\TempConverterEthan\TempConverterEthan\obj\Debug\TempConverterEthan.csprojAssemblyReference.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\LEthan (s256202)\Unit 4 (Procedures & Functions)\TempConverterEthan\TempConverterEthan\obj\Debug\TempConverterEthan.Properties.Resources.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\LEthan (s256202)\Unit 4 (Procedures & Functions)\TempConverterEthan\TempConverterEthan\obj\Debug\TempConverterEthan.frmTempConverter.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\LEthan (s256202)\Unit 4 (Procedures & Functions)\TempConverterEthan\TempConverterEthan\obj\Debug\TempConverterEthan.csproj.GenerateResource.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\LEthan (s256202)\Unit 4 (Procedures & Functions)\TempConverterEthan\TempConverterEthan\obj\Debug\TempConverterEthan.csproj.CoreCompileInputs.cache
