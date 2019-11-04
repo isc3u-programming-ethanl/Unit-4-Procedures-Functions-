@@ -108,6 +108,7 @@
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(100, 20);
             this.txtAddress.TabIndex = 6;
+            this.txtAddress.TextChanged += new System.EventHandler(this.TxtAddress_TextChanged);
             // 
             // txtCity
             // 
@@ -115,6 +116,7 @@
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(100, 20);
             this.txtCity.TabIndex = 7;
+            this.txtCity.TextChanged += new System.EventHandler(this.TxtCity_TextChanged);
             // 
             // txtPostalCode
             // 
@@ -122,6 +124,7 @@
             this.txtPostalCode.Name = "txtPostalCode";
             this.txtPostalCode.Size = new System.Drawing.Size(100, 20);
             this.txtPostalCode.TabIndex = 8;
+            this.txtPostalCode.TextChanged += new System.EventHandler(this.TxtPostalCode_TextChanged);
             // 
             // txtUnit
             // 
@@ -129,6 +132,7 @@
             this.txtUnit.Name = "txtUnit";
             this.txtUnit.Size = new System.Drawing.Size(100, 20);
             this.txtUnit.TabIndex = 9;
+            this.txtUnit.TextChanged += new System.EventHandler(this.TxtUnit_TextChanged);
             // 
             // txtProvince
             // 
@@ -136,6 +140,7 @@
             this.txtProvince.Name = "txtProvince";
             this.txtProvince.Size = new System.Drawing.Size(100, 20);
             this.txtProvince.TabIndex = 10;
+            this.txtProvince.TextChanged += new System.EventHandler(this.TxtProvince_TextChanged);
             // 
             // btnEnter
             // 
@@ -146,6 +151,7 @@
             this.btnEnter.TabIndex = 11;
             this.btnEnter.Text = "Enter";
             this.btnEnter.UseVisualStyleBackColor = true;
+            this.btnEnter.Click += new System.EventHandler(this.BtnEnter_Click);
             // 
             // frmOptionalParameters
             // 
