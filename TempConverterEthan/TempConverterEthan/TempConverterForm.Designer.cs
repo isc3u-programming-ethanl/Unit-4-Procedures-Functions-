@@ -66,7 +66,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(716, 450);
             this.Controls.Add(this.btnConvertToFah);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.lblInputText);
