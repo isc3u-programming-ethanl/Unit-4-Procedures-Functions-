@@ -104,6 +104,7 @@
             this.Controls.Add(this.lblRadiusText);
             this.Name = "frmVolOfCylinder";
             this.Text = "Volume of Cylinder by Ethan";
+            this.Load += new System.EventHandler(this.FrmVolOfCylinder_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
