@@ -48,7 +48,7 @@
             // 
             this.txtInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtInput.Location = new System.Drawing.Point(257, 69);
-            this.txtInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtInput.Margin = new System.Windows.Forms.Padding(2);
             this.txtInput.Name = "txtInput";
             this.txtInput.Size = new System.Drawing.Size(110, 29);
             this.txtInput.TabIndex = 1;
@@ -57,12 +57,13 @@
             // 
             this.btnEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnter.Location = new System.Drawing.Point(181, 123);
-            this.btnEnter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEnter.Margin = new System.Windows.Forms.Padding(2);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.Size = new System.Drawing.Size(84, 37);
             this.btnEnter.TabIndex = 2;
             this.btnEnter.Text = "Enter";
             this.btnEnter.UseVisualStyleBackColor = true;
+            this.btnEnter.Click += new System.EventHandler(this.BtnEnter_Click);
             // 
             // frmPercentageProgram
             // 
@@ -73,7 +74,7 @@
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.lblEnterText);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmPercentageProgram";
             this.Text = "Percentage Program by Ethan";
             this.ResumeLayout(false);

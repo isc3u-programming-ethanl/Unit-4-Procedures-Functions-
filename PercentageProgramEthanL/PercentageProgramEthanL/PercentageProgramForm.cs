@@ -16,5 +16,10 @@ namespace PercentageProgramEthanL
         {
             InitializeComponent();
         }
+
+        private void BtnEnter_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

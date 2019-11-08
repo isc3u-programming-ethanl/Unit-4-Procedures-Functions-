@@ -24,21 +24,36 @@ namespace PythagoreanTheoremEthanL
             InitializeComponent();
         }
 
-        public double CalculateHyp(double opp, double adj);
+        public void CalculateHyp(int opp, int adj)
+        {
+            // declare local variables
+            int oppSide;
+            int adjSide;
+            double hypSide;
+
+            // make the opp and adj from the text boxes
+           oppSide = int.Parse(this.txtOpp.Text);
+           adjSide = int.Parse(this.txtAdj.Text);
+
+            // math for hypotenuse
+            hypSide = Math.Sqrt((oppSide * oppSide) + (adjSide * adjSide));
+
+            // Update the label to say the answe
+            this.lblAnswer.Text = "The Hypotenuse is: " + hypSide;
+        }
 
         private void BtnCalculate_Click(object sender, EventArgs e)
         {
             // declare local variables
-            double opp;
-            double adj;
-            double hyp;
+            int userOpp;
+            int userAdj;
 
-            // make the opp and adj from 
-            opp = Double.Parse(this.txtOpp.Text);
-            adj = Double.Parse(this.txtAdj.Text);
+            // Convert the userOpp and userAdj to int16 from the text boxes
+            userOpp = Convert.ToInt16(this.txtOpp.Text);
+            userAdj = Convert.ToInt16(this.txtAdj.Text);
 
             // calling function
-            CalculateHyp(opp, adj);
+            CalculateHyp(userOpp, userAdj);
         }
     }
 }

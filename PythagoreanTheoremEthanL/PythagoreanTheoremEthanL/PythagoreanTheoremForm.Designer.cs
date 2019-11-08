@@ -76,9 +76,8 @@
             this.lblAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAnswer.Location = new System.Drawing.Point(108, 201);
             this.lblAnswer.Name = "lblAnswer";
-            this.lblAnswer.Size = new System.Drawing.Size(179, 24);
+            this.lblAnswer.Size = new System.Drawing.Size(0, 24);
             this.lblAnswer.TabIndex = 4;
-            this.lblAnswer.Text = "The Hypotenuse is: ";
             // 
             // btnCalculate
             // 
@@ -95,7 +94,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(567, 331);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.lblAnswer);
             this.Controls.Add(this.lblAdj);
