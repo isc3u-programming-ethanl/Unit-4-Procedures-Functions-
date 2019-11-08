@@ -24,7 +24,11 @@ namespace PythagoreanTheoremEthanL
             InitializeComponent();
         }
 
-        public void CalculateHyp(int opp, int adj)
+        // Function: CalculateHyp
+        // Input: int opp, int adj
+        // Output: Hypotenuse
+        // Description: This function calculates the hypotenuse by getting the users adj and opp sides
+        public double CalculateHyp(int opp, int adj)
         {
             // declare local variables
             int oppSide;
@@ -40,6 +44,8 @@ namespace PythagoreanTheoremEthanL
 
             // Update the label to say the answe
             this.lblAnswer.Text = "The Hypotenuse is: " + hypSide;
+
+            return hypSide;
         }
 
         private void BtnCalculate_Click(object sender, EventArgs e)
