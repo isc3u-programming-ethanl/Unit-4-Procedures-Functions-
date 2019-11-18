@@ -33,6 +33,7 @@
             this.lblQuestionText = new System.Windows.Forms.Label();
             this.nudRound = new System.Windows.Forms.NumericUpDown();
             this.btnRound = new System.Windows.Forms.Button();
+            this.lblSample = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nudRound)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,11 +83,20 @@
             this.btnRound.UseVisualStyleBackColor = true;
             this.btnRound.Click += new System.EventHandler(this.BtnRound_Click);
             // 
+            // lblSample
+            // 
+            this.lblSample.AutoSize = true;
+            this.lblSample.Location = new System.Drawing.Point(12, 204);
+            this.lblSample.Name = "lblSample";
+            this.lblSample.Size = new System.Drawing.Size(0, 13);
+            this.lblSample.TabIndex = 5;
+            // 
             // frmRoundingProgram
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(715, 248);
+            this.Controls.Add(this.lblSample);
             this.Controls.Add(this.btnRound);
             this.Controls.Add(this.nudRound);
             this.Controls.Add(this.lblQuestionText);
@@ -107,6 +117,7 @@
         private System.Windows.Forms.Label lblQuestionText;
         private System.Windows.Forms.NumericUpDown nudRound;
         private System.Windows.Forms.Button btnRound;
+        private System.Windows.Forms.Label lblSample;
     }
 }
 

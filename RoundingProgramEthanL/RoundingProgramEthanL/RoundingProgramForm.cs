@@ -27,21 +27,27 @@ namespace RoundingProgramEthanL
 
             userPlaces = Double.Parse(this.nudRound.Text);
 
-            double userAnswer;
+            double answer;
 
-            userAnswer = ((Math.Pow(10, userPlaces) * userDec) + 0.5);
-            userAnswer = userAnswer / userDec;
-            userAnswer = Math.Truncate(userAnswer);
+            answer = ((Math.Pow(10, userPlaces) * userDec) + 0.5);
+            answer = answer / userDec;
+            answer = Math.Truncate(answer);
 
-
-            MessageBox.Show("The answer is " + userAnswer);
+            this.lblSample.Text = "" + answer;
         }
        
 
         private void BtnRound_Click(object sender, EventArgs e)
         {
+            String userAnswer;
+
+            userAnswer = Convert.ToString(this.lblSample.Text);
+
+            MessageBox.Show("The answer is " + userAnswer);
             // calling the procedure
             RoundDecimal(ref txtInput, ref nudRound);
+
+
         }
     }
 }

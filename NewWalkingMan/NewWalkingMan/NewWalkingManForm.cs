@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Created by: Ethan L
+ * Created on: 11/18/19
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #34 - New Walking Man
+ * This program has a button that when clicked, will generate 4 new picture boxes with the "Walking Man" pictures.
+ * When one of the picture boxes is clicked, the others can't be clicked and will to wait until the animating ends.
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +15,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace NewWalkingMan
 {
@@ -115,7 +124,16 @@ namespace NewWalkingMan
                 {
                     tmpPicMan.Image = Properties.Resources.walk10;
                 }
+
+                // increment the counter
                 pictureFrameCounter++;
+
+                // refresh the form. This MUST be done, otherwise the picture won't get updated!
+                this.Refresh();
+
+                // pause the loop for 100 milliseconds
+                Thread.Sleep(100);
+
             }
         }
     }

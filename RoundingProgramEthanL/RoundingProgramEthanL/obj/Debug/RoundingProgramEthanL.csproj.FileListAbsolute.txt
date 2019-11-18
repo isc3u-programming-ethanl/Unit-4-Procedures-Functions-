@@ -8,3 +8,13 @@ N:\Classes\Sem1-Fall2019\ICS3U Programming\LEthan (s256202)\Unit 4 (Procedures &
 N:\Classes\Sem1-Fall2019\ICS3U Programming\LEthan (s256202)\Unit 4 (Procedures & Functions)\RoundingProgramEthanL\RoundingProgramEthanL\obj\Debug\RoundingProgramEthanL.csproj.CoreCompileInputs.cache
 N:\Classes\Sem1-Fall2019\ICS3U Programming\LEthan (s256202)\Unit 4 (Procedures & Functions)\RoundingProgramEthanL\RoundingProgramEthanL\obj\Debug\RoundingProgramEthanL.exe
 N:\Classes\Sem1-Fall2019\ICS3U Programming\LEthan (s256202)\Unit 4 (Procedures & Functions)\RoundingProgramEthanL\RoundingProgramEthanL\obj\Debug\RoundingProgramEthanL.pdb
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\RoundingProgramEthanL\RoundingProgramEthanL\bin\Debug\RoundingProgramEthanL.exe.config
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\RoundingProgramEthanL\RoundingProgramEthanL\bin\Debug\RoundingProgramEthanL.exe
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\RoundingProgramEthanL\RoundingProgramEthanL\bin\Debug\RoundingProgramEthanL.pdb
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\RoundingProgramEthanL\RoundingProgramEthanL\obj\Debug\RoundingProgramEthanL.csprojAssemblyReference.cache
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\RoundingProgramEthanL\RoundingProgramEthanL\obj\Debug\RoundingProgramEthanL.Properties.Resources.resources
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\RoundingProgramEthanL\RoundingProgramEthanL\obj\Debug\RoundingProgramEthanL.frmRoundingProgram.resources
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\RoundingProgramEthanL\RoundingProgramEthanL\obj\Debug\RoundingProgramEthanL.csproj.GenerateResource.cache
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\RoundingProgramEthanL\RoundingProgramEthanL\obj\Debug\RoundingProgramEthanL.csproj.CoreCompileInputs.cache
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\RoundingProgramEthanL\RoundingProgramEthanL\obj\Debug\RoundingProgramEthanL.exe
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\RoundingProgramEthanL\RoundingProgramEthanL\obj\Debug\RoundingProgramEthanL.pdb
