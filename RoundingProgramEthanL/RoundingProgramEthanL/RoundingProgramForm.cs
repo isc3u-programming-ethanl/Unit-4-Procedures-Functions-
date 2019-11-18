@@ -25,13 +25,14 @@ namespace RoundingProgramEthanL
 
             double userPlaces;
 
-            userPlaces = Convert.ToDouble(this.nudRound.DecimalPlaces);
+            userPlaces = Double.Parse(this.nudRound.Text);
 
             double userAnswer;
 
-            userAnswer = (userDec * Math.Pow(10, userPlaces) + 0.5);
-            userAnswer = Math.Truncate(userAnswer);
+            userAnswer = ((Math.Pow(10, userPlaces) * userDec) + 0.5);
             userAnswer = userAnswer / userDec;
+            userAnswer = Math.Truncate(userAnswer);
+
 
             MessageBox.Show("The answer is " + userAnswer);
         }
