@@ -8,3 +8,13 @@ N:\Classes\Sem1-Fall2019\ICS3U Programming\LEthan (s256202)\Unit 4 (Procedures &
 N:\Classes\Sem1-Fall2019\ICS3U Programming\LEthan (s256202)\Unit 4 (Procedures & Functions)\StringEqualityEthan\StringEqualityEthan\bin\Debug\StringEqualityEthan.pdb
 N:\Classes\Sem1-Fall2019\ICS3U Programming\LEthan (s256202)\Unit 4 (Procedures & Functions)\StringEqualityEthan\StringEqualityEthan\obj\Debug\StringEqualityEthan.exe
 N:\Classes\Sem1-Fall2019\ICS3U Programming\LEthan (s256202)\Unit 4 (Procedures & Functions)\StringEqualityEthan\StringEqualityEthan\obj\Debug\StringEqualityEthan.pdb
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\StringEqualityEthan\StringEqualityEthan\bin\Debug\StringEqualityEthan.exe.config
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\StringEqualityEthan\StringEqualityEthan\bin\Debug\StringEqualityEthan.exe
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\StringEqualityEthan\StringEqualityEthan\bin\Debug\StringEqualityEthan.pdb
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\StringEqualityEthan\StringEqualityEthan\obj\Debug\StringEqualityEthan.csprojAssemblyReference.cache
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\StringEqualityEthan\StringEqualityEthan\obj\Debug\StringEqualityEthan.Properties.Resources.resources
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\StringEqualityEthan\StringEqualityEthan\obj\Debug\StringEqualityEthan.frmStringEquality.resources
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\StringEqualityEthan\StringEqualityEthan\obj\Debug\StringEqualityEthan.csproj.GenerateResource.cache
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\StringEqualityEthan\StringEqualityEthan\obj\Debug\StringEqualityEthan.csproj.CoreCompileInputs.cache
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\StringEqualityEthan\StringEqualityEthan\obj\Debug\StringEqualityEthan.exe
+C:\Users\ethan\Documents\GitHub\Unit-4-Procedures-Functions-\StringEqualityEthan\StringEqualityEthan\obj\Debug\StringEqualityEthan.pdb

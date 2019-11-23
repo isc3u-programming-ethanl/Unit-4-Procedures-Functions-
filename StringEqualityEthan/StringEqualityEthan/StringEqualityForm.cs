@@ -25,34 +25,21 @@ namespace StringEqualityEthan
             string string1;
             string string2;
 
-            string1 = Convert.ToString(this.txtString1);
-            string2 = Convert.ToString(this.txtString2);
-
             int length1;
             int length2;
 
-            length1 = string1.Length;
-            length2 = string2.Length;
+            length1 = one.Length;
+            length2 = two.Length;
 
             if (length1 == length2)
             {
-                string1.ToUpper();
-                string2.ToUpper();
+                string1 = one.ToUpper();
+                string2 = two.ToUpper();
 
-                string1 = one;
-                string2 = two;
-            }
-
-            if (string1 == string2)
-            {
-                isEqual = true;
-                this.lblAnswer.Text = "These strings are equal.";
-                this.lblAnswer.Show();
-            }
-            else
-            {
-                this.lblAnswer.Text = "These strings are NOT equal.";
-                this.lblAnswer.Show();
+                if (string1 == string2)
+                {
+                    isEqual = true;
+                }
             }
             return isEqual;
         }
@@ -65,7 +52,18 @@ namespace StringEqualityEthan
             realString1 = Convert.ToString(this.txtString1);
             realString2 = Convert.ToString(this.txtString2);
 
-            StringsAreEqual(realString1, realString2);
+            bool isEqual = StringsAreEqual(realString1, realString2);
+
+            if (isEqual == true)
+            {
+                this.lblAnswer.Text = "These strings are equal.";
+                this.lblAnswer.Show();
+            }
+            else
+            {
+                this.lblAnswer.Text = "These strings are NOT equal.";
+                this.lblAnswer.Show();
+            }
         }
     }
 }
